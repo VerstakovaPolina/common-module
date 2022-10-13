@@ -18,6 +18,7 @@
         <module>common-services</module>
         <module>dependency-management-bom</module>
         <module>common-utils</module>
+        <module>core</module>
     </modules>
 
     <properties>
@@ -116,6 +117,11 @@
                         <version>${project.version}</version>
                     </dependency>
                 </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.19.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
