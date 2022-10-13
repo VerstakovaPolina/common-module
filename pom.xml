@@ -18,6 +18,7 @@
         <module>common-services</module>
         <module>dependency-management-bom</module>
         <module>common-utils</module>
+        <module>core</module>
     </modules>
 
     <properties>
